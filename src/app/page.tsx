@@ -88,7 +88,7 @@ export default function HomePage() {
 
   return (
     <main className={styles.main}>
-      <header>
+      <header className={styles.header}>
         <Hero3D />
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
@@ -105,8 +105,8 @@ export default function HomePage() {
           {t("description")}
         </motion.p>
         <nav>
-          <button onClick={() => i18n.changeLanguage("es")}>ES</button>
-          <button onClick={() => i18n.changeLanguage("en")}>EN</button>
+          <button className={styles.navButton} onClick={() => i18n.changeLanguage("es")}>ES</button>
+          <button className={styles.navButton} onClick={() => i18n.changeLanguage("en")}>EN</button>
         </nav>
       </header>
       <section>

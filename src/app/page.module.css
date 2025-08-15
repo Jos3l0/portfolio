@@ -40,12 +40,14 @@
   box-sizing: border-box;
 }
 
-header {
+/* Elimina el selector global que causa el error de compilación en Vercel */
+/* header {
   text-align: center;
   margin-bottom: 2rem;
 }
+*/
 
-nav button {
+.navButton {
   margin: 0 0.5rem;
   background: #222;
   color: #00eaff;
@@ -57,7 +59,7 @@ nav button {
   transition: background 0.2s;
 }
 
-nav button:hover {
+.navButton:hover {
   background: #00eaff;
   color: #18181b;
 }
