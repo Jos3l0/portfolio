@@ -40,13 +40,13 @@
   box-sizing: border-box;
 }
 
-header {
+.header {
   text-align: center;
   margin-bottom: 2rem;
   padding: 2rem 0 1rem 0;
 }
 
-header h1 {
+.header h1 {
   font-size: 2.8rem;
   font-weight: 800;
   color: #00eaff;
@@ -55,13 +55,13 @@ header h1 {
   text-shadow: 0 2px 24px #00eaff33;
 }
 
-header p {
+.header p {
   font-size: 1.3rem;
   color: #b3eaff;
   margin-bottom: 1.5rem;
 }
 
-section {
+.section {
   margin-bottom: 2.5rem;
   padding: 2rem 1rem;
   background: rgba(34, 34, 34, 0.7);
@@ -69,7 +69,7 @@ section {
   box-shadow: 0 2px 24px #00eaff11;
 }
 
-section h2 {
+.section h2 {
   font-size: 2rem;
   font-weight: 700;
   color: #00eaff;
@@ -77,7 +77,7 @@ section h2 {
   letter-spacing: -0.5px;
 }
 
-section ul {
+.section ul {
   margin-top: 1rem;
 }
 
@@ -319,15 +319,11 @@ a.secondary {
     justify-content: center;
   }
 
-  section {
-    padding: 1rem 0.3rem;
-  }
-
-  header h1 {
+  .header h1 {
     font-size: 2rem;
   }
 
-  section h2 {
+  .section h2 {
     font-size: 1.3rem;
   }
 

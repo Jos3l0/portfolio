@@ -50,7 +50,7 @@ export default function AnimatedSections({ t, lang, profile, i18n }: AnimatedSec
           <button className={styles.navButton} onClick={() => i18n.changeLanguage("en")}>EN</button>
         </nav>
       </header>
-      <section>
+      <section className={styles.section}>
         <motion.h2 initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }}>{t('works')}</motion.h2>
         <ul className={styles.ul}>
           {[1,2,3,4,5,6].map(i => (
@@ -69,7 +69,7 @@ export default function AnimatedSections({ t, lang, profile, i18n }: AnimatedSec
           ))}
         </ul>
       </section>
-      <section>
+      <section className={styles.section}>
         <motion.h2
           initial={{ opacity: 0, x: 30 }}
           animate={{ opacity: 1, x: 0 }}
@@ -101,7 +101,7 @@ export default function AnimatedSections({ t, lang, profile, i18n }: AnimatedSec
           </li>
         </ul>
       </section>
-      <section>
+      <section className={styles.section}>
         <motion.h2
           initial={{ opacity: 0, x: -30 }}
           animate={{ opacity: 1, x: 0 }}
@@ -120,7 +120,7 @@ export default function AnimatedSections({ t, lang, profile, i18n }: AnimatedSec
           ))}
         </ul>
       </section>
-      <section>
+      <section className={styles.section}>
         <motion.h2
           initial={{ opacity: 0, x: 30 }}
           animate={{ opacity: 1, x: 0 }}
@@ -141,7 +141,7 @@ export default function AnimatedSections({ t, lang, profile, i18n }: AnimatedSec
           ))}
         </ul>
       </section>
-      <section>
+      <section className={styles.section}>
         <motion.h2
           initial={{ opacity: 0, x: -30 }}
           animate={{ opacity: 1, x: 0 }}
@@ -162,7 +162,7 @@ export default function AnimatedSections({ t, lang, profile, i18n }: AnimatedSec
           ))}
         </ul>
       </section>
-      <section>
+      <section className={styles.section}>
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
