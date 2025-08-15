@@ -64,12 +64,12 @@
   color: #18181b;
 }
 
-ul {
+.ul {
   list-style: none;
   padding: 0;
 }
 
-ul li {
+.li {
   margin-bottom: 1.5rem;
   background: #222;
   border-radius: 10px;
@@ -78,7 +78,7 @@ ul li {
   transition: transform 0.2s;
 }
 
-ul li:hover {
+.li:hover {
   transform: scale(1.03) translateY(-2px);
   box-shadow: 0 4px 24px #00eaff44;
 }
